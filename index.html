@@ -18,20 +18,19 @@
 <body style="background-image: url('./assets/images/light_alu.png');">
 
   <nav class="navbar navbar-expand-md bg-light navbar-light">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand" href="#">Roy Norton</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
       <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="./index.html">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Portfolio</a>
+          <a class="nav-link" href="./portfolio.html">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="./contact.html">Contact</a>
         </li>
       </ul>
     </div>
@@ -43,16 +42,15 @@
     <!--begin row -->
     <div class="row">
       <!--begin column 1 -->
-
       <div class="col-12 col-md-8">
         <div class="bg-light text-dark mt-4 ml-4">
           <div class="wrapper ml-4 mb-4">
             <div>
-              <h1 class="border-top-0 border-right-0 border-left-0 border border-info font-weight-bold text-info pl-2 pt-4 pb-4 ml-1 mr-4">About Me</h1>
+              <h1 class="border-top-0 border-right-0 border-left-0 border border-info font-weight-bold text-info pl-2 pt-4 pb-3 ml-1 mr-4">About Me</h1>
             </div>
             <div class="bg-light text-dark">
               <div>
-              <img class="float-left img-fluid mr-4 ml-1" src="./assets/images/Me.jpg" alt="Roy Norton" width="200" height="400" />
+                <img class="float-left img-fluid mr-4 ml-1" src="./assets/images/Me.jpg" alt="Roy Norton" width="200" height="400" />
               </div>
               <p class="text-justify mr-4">
                 Hello and welcome to my page. During the day, I make a living as a software engineer within the Defense and Aerospace industry.
@@ -76,38 +74,49 @@
       <!--end column 1 -->
 
       <!--begin column 2 -->
-
       <div class="col-12 col-md-4">
-
-        <div class="card bg-light text-dark mt-4">
-          <h3 class="card-header">Connect with Me</h3>
-          <div class="card-block">
-            <a href="#" class="card-link">
-              <img class="float-left img-fluid" src="./assets/images/github.png" alt="GitHub" />
-            </a>
-            <a href="#" class="card-link">
-              <img class="float-left img-fluid" src="./assets/images/linkedin.png" alt="LinkedIn" />
-            </a>
-            <a href="#" class="card-link">
-              <img class="float-left img-fluid" src="./assets/images/stackoverflow.png" alt="Stack Overflow" />
-            </a>
+        <!-- begin card -->
+        <div class="card bg-light ml-xs-4 mt-4">
+          <h2 class="card-header bg-light mt-4 border-top-0 border-right-0 border-left-0 border border-info font-weight-bold text-info">Connect with Me</h2>
+          <!-- begin card block -->
+          <div class="card-block my-4">
+            <div class="container-fluid">
+              <!-- begin row -->
+              <div class="row">
+                <div class="col-12 text-center">
+                  <a href="#" class="card-link">
+                    <img class="img-fluid  my-2 my-xl-2" src="./assets/images/github.png" alt="GitHub" />
+                  </a>
+                  <a href="#" class="card-link">
+                    <img class="img-fluid my-2 my-xl-2" src="./assets/images/linkedin.png" alt="LinkedIn" />
+                  </a>
+                  <a href="#" class="card-link">
+                    <img class="img-fluid my-2 my-xl-2" src="./assets/images/stackoverflow.png" alt="Stack Overflow" />
+                  </a>
+                </div>
+              </div>
+              <!-- end row -->
+            </div>
           </div>
+          <!-- end card block -->
         </div>
-
+        <!-- end card -->
       </div>
       <!-- end column 2 -->
     </div>
     <!-- end row -->
+  </div>
+  <!-- end container -->
 
-    <div class="row">
-      <div class="col-12 text-center">
-        <div style="position: absolute; width: 100%; height: 60px; line-height: 60px; background-color: #666666;">
-          &#169 Copyright 2017: Roy W. Norton
-        </div>
+  <!-- begin footer -->
+  <div class="row">
+    <div class="col-12 text-white bg-dark text-center">
+      <div style="width: 100%; height: 60px; line-height: 60px;">
+        <span>&#169 Copyright 2017: Roy W. Norton</span>
       </div>
     </div>
   </div>
-  <!--end container -->
+  <!-- end footer -->
 </body>
 
 </html>
