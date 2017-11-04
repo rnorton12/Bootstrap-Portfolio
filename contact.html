@@ -6,59 +6,71 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Bootstrap 101 Template</title>
+  <title>Roy Norton: Contact</title>
+
+  <!-- reset style -->
+  <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
+
+  <!-- custom style -->
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
 
   <!-- Bootstrap CDN -->
-  <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
     crossorigin="anonymous">
 
 </head>
 
-<body style="background-image: url('./assets/images/light_alu.png');">
+<body>
 
+  <!-- Begin Nav Bar -->
   <nav class="navbar fixed-top navbar-expand-sm bg-light navbar-light p-0 m-0">
-    <div class="container justify-content-sm-center justify-content-md-start">
-      <img src="./assets/images/RoyNorton.png" class="navbar-brand" alt="Roy Norton" />
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content"
-        aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
 
-      <div class="navbar-collapse collapse justify-content-end" id="nav-content">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="./index.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./contact.html">Contact</a>
-          </li>
-        </ul>
-      </div>
+    <nav class="navbar navbar-dark bg-info">
+      <span class="navbar-brand font-weight-bold mb-0 h1">Roy Norton</span>
+    </nav>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="navbar-collapse collapse justify-content-end" id="nav-content">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contact.html">Contact</a>
+        </li>
+      </ul>
     </div>
   </nav>
+  <!-- End Nav Bar -->
 
-  <!--begin container -->
-  <div class="container mt-5">     
-    <!--begin row -->
+  <!--begin Portfolio Content -->
+  <div class="container mt-5">
+    <!-- begin outer container -->
     <div class="row">
-      <!--begin column 1 -->
+      <!--begin outer container row -->
       <div class="col-12 col-md-8">
+        <!--begin outer container column 1 -->
         <div class="bg-light text-dark mt-4">
           <div class="wrapper mx-2 mb-4">
+            <!-- begin Portfolio Picture Wrapper -->
             <div>
               <h5 class="pt-4 pb-3 border-top-0 border-right-0 border-left-0 border border-info font-weight-bold text-info">
                 Contact</h5>
             </div>
-            <div class="bg-light text-dark">
+            <div class="container bg-light text-dark">
+              <!-- begin inner container -->
               <form>
                 <div class="form-group mr-2">
                   <label for="exampleInputName1">
                     Name</label>
-                  <input type="name" class="form-control" id="exampleInputName1" placeholder="Enter name">
+                  <input type="text" class="form-control" id="exampleInputName1" placeholder="Enter name">
                 </div>
                 <div class="form-group mr-2">
                   <label for="exampleInputEmail1">
@@ -78,62 +90,78 @@
           </div>
         </div>
       </div>
-      <!--end column 1 -->
+      <!--begin outer container column 1 -->
 
       <!-- side bar -->
-      <!--begin column 2 -->
       <div class="col-12 col-md-4 mt-4">
-        <!-- begin card -->
+        <!--begin outer container column 2 -->
         <div class="card bg-light">
+          <!-- begin card -->
           <h6 class="card-header mx-2 bg-light border-top-0 border-right-0 border-left-0 border border-info font-weight-bold text-info">
             Connect with Me</h6>
-          <!-- begin card block -->
           <div class="container">
+            <!-- begin card block container -->
             <div class="card-block">
-
-              <!-- begin row -->
+              <!-- begin card block -->
               <div class="row my-4">
-
+                <!-- begin row -->
                 <div class="col-4 text-center">
+                  <!-- begin column 1 -->
+                  <!-- git hub icon -->
                   <a href="#" class="card-link">
                     <img src="./assets/images/github.png" class="img-fluid my-2 my-xl-2" alt="GitHub" />
                   </a>
                 </div>
+                <!-- end column 1 -->
                 <div class="col-4 text-center">
+                  <!-- begin column 2 -->
+                  <!-- linkedIn icon -->
                   <a href="#" class="card-link">
                     <img src="./assets/images/linkedin.png" class="img-fluid my-2 my-xl-2" alt="LinkedIn" />
                   </a>
                 </div>
+                <!-- end column 2 -->
                 <div class="col-4 text-center">
+                  <!-- begin column 3 -->
+                  <!-- stack overflow icon -->
                   <a href="#" class="card-link">
                     <img src="./assets/images/stackoverflow.png" class="img-fluid my-2 my-xl-2" alt="Stack Overflow" />
                   </a>
                 </div>
+                <!-- end column 3 -->
               </div>
-
               <!-- end row -->
             </div>
+            <!-- end card block -->
           </div>
+          <!-- end card block container -->
         </div>
-        <!-- end card block -->
+        <!-- end card -->
       </div>
-      <!-- end card -->
+      <!--end outer container column 2 -->
     </div>
-    <!-- end column 2 -->
+    <!--end outer container row -->
   </div>
-  <!-- end row -->
-  </div>
-  <!-- end container -->
+  <!-- end outer container -->
+  <!--end Contact Content -->
 
   <!-- begin footer -->
   <div class="row">
     <div class="col-12 text-white bg-dark text-center">
-      <div style="width: 100%; height: 60px; line-height: 60px;">
-        <span>&#169 Copyright 2017: Roy Norton</span>
+      <div class="footer">
+        <span>Copyright 2017: Roy Norton</span>
       </div>
     </div>
   </div>
   <!-- end footer -->
+
+  <!-- Java Scripts to support bootstrap navbar -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+    crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
