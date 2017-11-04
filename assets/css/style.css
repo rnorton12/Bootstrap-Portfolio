@@ -13,3 +13,48 @@ body {
 .figure-img {
   width: 200px;
 }
+
+/* subject: CSS Animations - modified from W3schools */
+.subject {
+    color: red;
+    -webkit-animation-name: cycleSubjectTextColor; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: cycleSubjectTextColor;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes cycleSubjectTextColor {
+    from {color: red; text-align: right;}
+    to {color: purple; text-align: left;}
+}
+
+/* Standard syntax */
+@keyframes cycleSubjectTextColor {
+    from {color: red; text-align: right;}
+    to {color: purple; text-align: left;}
+}
+
+/* connectWithMe: CSS Animations - modified from W3schools */
+
+.connectWithMe {
+  color: red;
+  -webkit-animation-name: cycleconnectWithMeTextColor; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: cycleconnectWithMeTextColor;
+  animation-duration: 4s;
+  animation-iteration-count: 3;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes cycleconnectWithMeTextColor {
+  from {color: red; background: purple;}
+  to {color: purple; text-align:red;}
+}
+
+/* Standard syntax */
+@keyframes cycleconnectWithMeTextColor {
+  from {color: red; background: purple;}
+  to {color: purple; text-align:red;}
+}
